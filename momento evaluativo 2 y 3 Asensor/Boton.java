@@ -1,13 +1,11 @@
 public class Boton {
-    // Cambiamos luzBoton por activo
     private boolean activo; 
 
     public Boton() {
-        // Al crearse, el botón no ha sido presionado (está inactivo)
         this.activo = false;
     }
 
-    public void encenderBoton() { // Puedes mantener el nombre o llamarlo presionarBoton()
+    public void encenderBoton() { 
         if (activo == false) { 
             activo = true; 
             System.out.println("Botón presionado. Registrando llamada...");
@@ -16,7 +14,7 @@ public class Boton {
         }
     }
 
-    public void apagarBoton() { // Puedes mantener el nombre o llamarlo liberarBoton()
+    public void apagarBoton() { 
         if (activo == false) { 
             System.out.println("El botón ya está inactivo.");
         } else {
@@ -35,7 +33,6 @@ public class Boton {
         return "El sistema ha registrado una orden para BAJAR.";
     }
 
-    // El getter ahora sigue el estándar total de Java para booleanos
     public boolean isActivo() {
         return this.activo;
     }
