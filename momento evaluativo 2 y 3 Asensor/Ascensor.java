@@ -17,7 +17,7 @@ public class Ascensor {
         this.botonesInternos = new BotonAscensor[totalPisos];
 
         for (int i = 0; i < totalPisos; i++) {
-            // ejecuto el constructor para crear el boton en cada posición
+            
             this.botonesInternos[i] = new BotonAscensor(i + 1);
         }
     }
