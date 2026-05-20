@@ -12,7 +12,7 @@ public class SistemaControl {
     }
 
     public void llamarAscensorDesdePiso(int numeroPiso, boolean quiereSubir) {
-        System.out.println("\n[SISTEMA] Alguien pide el ascensor en el Piso " + numeroPiso);
+        System.out.println("[SISTEMA] Alguien pide el ascensor en el Piso " + numeroPiso);
         
         int indicePiso = numeroPiso - 1;
         

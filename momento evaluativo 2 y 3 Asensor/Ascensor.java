@@ -5,6 +5,7 @@ public class Ascensor {
 
     private PuertaAscensor puertaCabina;
     private BotonAscensor[] botonesInternos; 
+    
     // Constructor donde solo pido el total de los pisos
 
     public Ascensor(int totalPisos) {
